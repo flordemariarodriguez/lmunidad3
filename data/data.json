@@ -1,0 +1,22 @@
+{
+    "items": [
+        { 
+            "name": "Tour of the Grand Canyon",
+            "description": "Explore the magnificent Grand Canyon with our expert guides. This tour includes hiking, rafting, and scenic viewpoints.",
+            "price": "$300",
+            "image": "images/Tour of the Grand Canyon/image1.jpg"
+        },
+        { 
+            "name": "Safari in Africa",
+            "description": "Experience the wildlife and beauty of Africa on our guided safari tours. Witness the Big Five in their natural habitat.",
+            "price": "$500",
+            "image": "images/Safari in Africa/image1.jpg"
+        },
+        { 
+            "name": "City Tour of Paris",
+            "description": "Discover the charm and history of Paris with our city tour. Visit the Eiffel Tower, Louvre Museum, and enjoy a Seine River cruise.",
+            "price": "$200",
+            "image": "images/City Tour of Paris/image1.jpg"
+        }
+    ]
+}

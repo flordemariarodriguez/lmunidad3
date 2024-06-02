@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #f8f9fa;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+}
+
+aside {
+    background-color: #e9ecef;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #007bff;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+#toursContainer {
+    margin-top: 20px;
+}
+
+/* Estilos para la sección de Aspectos destacados del tour */
+.tour-highlights-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tour-highlights {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    width: 80%;
+    max-width: 800px;
+}
+
+.highlight-category {
+    margin-bottom: 20px;
+}
+
+.highlight-category h3 {
+    color: #2196F3;
+}
+
+.highlight-category ul,
+.highlight-category ol,
+.highlight-category ul ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.highlight-category ul ul {
+    padding-left: 20px;
+}
+
+.highlight-category ol {
+    padding-left: 20px;
+}
+
+/* Estilos para centrar el contenedor */
+.iframe-wrapper {
+    text-align: center;
+}
+
+/* Estilos para el iframe */
+.iframe-container {
+    display: inline-block;
+    width: 80%; /* Ancho deseado */
+    max-width: 800px; /* Ancho máximo para evitar que se extienda demasiado en pantallas grandes */
+}
+
+
+/* Estilos para la barra lateral de eventos */
+.event-sidebar {
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.event {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.event img {
+    width: 100px; /* Ancho de la imagen */
+    height: 100px; /* Altura de la imagen */
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.event-info {
+    flex-grow: 1;
+}
+
+.event-info h3 {
+    margin-top: 0;
+}
+
+.event-info a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none;
+}
+
+.event-info a:hover {
+    text-decoration: underline;
+}
